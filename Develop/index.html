@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- Changed title from "Website" -->
     <title>Horiseon Social Solutions</title>
   </head>
-
   <body>
-    <!-- Remove the class header since the div was changed to header maybe? -->
     <!-- Changed div to header -->
-    <header class="header">
+    <!-- Removed class="header" -->
+    <header>
       <h1>Hori<span class="seo">seo</span>n</h1>
       <!-- Changed div to nav -->
       <nav>
@@ -18,9 +18,7 @@
             <a href="#search-engine-optimization">Search Engine Optimization</a>
           </li>
           <li>
-            <a href="#online-reputation-management"
-              >Online Reputation Management</a
-            >
+            <a href="#online-reputation-management">Online Reputation Management</a>
           </li>
           <li>
             <a href="#social-media-marketing">Social Media Marketing</a>
@@ -28,15 +26,19 @@
         </ul>
       </nav>
     </header>
-    <!-- Should I move the image linked to class="hero" on css form to this HTML doc? -->
+    <!-- background image does not need to be in HTML, no alt needed. Could add an aria -->
     <div class="hero"></div>
-    <!-- Should this content in the class go in the class attrb of all the below sections? -->
-    <div class="content">
-      <!--  changed div to section, added id attrb.  -->
+    <!-- Changed div to main -->
+    <!-- Removed class="content" -->
+    <main>
+      <!-- Changed div to section  -->
+      <!-- Added id="search-engine-optimization" -->
+      <!-- Changed to class="services" -->
       <section
         id="search-engine-optimization"
-        class="search-engine-optimization"
+        class="services"
       >
+        <!-- Added alt text to img -->
         <img
           src="./assets/images/search-engine-optimization.jpg"
           alt="Notebook with SEO"
@@ -51,9 +53,10 @@
         </p>
       </section>
       <!-- Changed div to section -->
+      <!-- Changed to class="services" -->
       <section
         id="online-reputation-management"
-        class="online-reputation-management"
+        class="services"
       >
         <!-- Added alt text to img -->
         <img
@@ -71,9 +74,10 @@
         </p>
       </section>
       <!-- Changed div to section -->
-      <section id="social-media-marketing" class="social-media-marketing">
+      <!-- Added class="services" -->
+      <section id="social-media-marketing" class="services">
         <img
-          src="./assets/images/social-media-marketing.jpg"
+          src="./assets/images/social-media-marketing.jpg" alt="Hands, laptops, and tablets gathered around table with various icons"
           class="float-left"
         />
         <h2>Social Media Marketing</h2>
@@ -85,38 +89,42 @@
         </p>
       </section>
     </div>
-    <!-- Make below <div> a <noscript>? -->
-    <div class="benefits">
-      <section class="benefit-lead">
+    <!-- Changed div to aside -->
+    <aside class="benefits">
+      <!-- Changed to class="benefit" -->
+      <div class="benefit">
         <h3>Lead Generation</h3>
-        <!-- WHAT THE HELL SHOULD I PUT AS ALT TXT FOR SOME OF THESE??? -->
-        <img src="./assets/images/lead-generation.png" alt="" />
+        <!-- Added alt text to img -->
+        <img src="./assets/images/lead-generation.png" alt="Gear funneling into coin" />
         <p>
           Inbound strategies for lead generation require less work for your
           business, bringing customers directly to your website.
         </p>
-      </section>
-      <!-- Changed div to section -->
-      <section class="benefit-brand">
+      </div>
+      <!-- Changed to class="benefit" -->
+      <div class="benefit">
         <h3>Brand Awareness</h3>
-        <img src="./assets/images/brand-awareness.png" alt="" />
+        <!-- Added alt text to img -->
+        <img src="./assets/images/brand-awareness.png" alt="Tuxedo with a lightbulb head" />
         <p>
           Users find your business through paid and organic searches, increasing
           the search ranking and visibility for your business.
         </p>
-      </section>
-      <!-- Changed div to section -->
-      <section class="benefit-cost">
+      </div>
+      <!-- Changed to class="benefit" -->
+      <div class="benefit">
         <h3>Cost Management</h3>
-        <img src="./assets/images/cost-management.png" alt="" />
+        <!-- Added alt text to img -->
+        <img src="./assets/images/cost-management.png" alt="Three coins with gear above" />
         <p>
           As the search ranking for your business increases, your advertising
           costs decrease, and you no longer need to advertise your page.
         </p>
-      </section>
-    </div>
+      </div>
+    </aside>
     <!-- Changed div to footer -->
-    <footer class="footer">
+    <!-- Removed class="footer" -->
+    <footer>
       <h2>Made with ❤️️ by Horiseon</h2>
       <p>&copy; 2019 Horiseon Social Solution Services, Inc.</p>
     </footer>
