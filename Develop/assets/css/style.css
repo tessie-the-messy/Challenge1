@@ -89,7 +89,7 @@ main {
 }
 
 /* Condensed three classes into one */
-aside {
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
