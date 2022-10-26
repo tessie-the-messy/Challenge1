@@ -11,8 +11,8 @@ While the new code has achieved this intention, it appears that in the future th
 For use by Horiseon Social Solutions.
 
 Webpage Preview:
-
-![Horiseon Social Solutions Webpage Preview](/Develop/assets/images/HoriseonSEOWebpage.png)
+https://tessie-the-messy.github.io/Challenge1/
+![image](https://user-images.githubusercontent.com/115903135/198140970-cb176a91-94c0-4c65-b660-e6ec29b93d80.png)
 
 ## Credits
 
